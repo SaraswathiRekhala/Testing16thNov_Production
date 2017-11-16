@@ -1,4 +1,8 @@
 {
+  "Procedure_AllTypesUsingAlias" : {
+    "procedureString" : "CALL getAllTypesUsingAlias()",
+    "parameters" : [ ]
+  },
   "Procedure_INOUT" : {
     "procedureString" : "CALL my_procedure(?)",
     "parameters" : [ {

@@ -40,6 +40,16 @@ public class ProcedureExecutionController {
     @Autowired
     private DbscenariosProcedureExecutorService procedureService;
 
+    @RequestMapping(value = "/procedure/execute/Procedure_AllTypesUsingAlias", method = RequestMethod.GET)
+    @WMAccessVisibility(value = AccessSpecifier.APP_ONLY)
+    @ApiOperation(value = "Procedure_AllTypesUsingAlias")
+    public ProcedureAllTypesUsingAliasResponse executeProcedure_AllTypesUsingAlias(HttpServletRequest _request) {
+        LOGGER.debug("Executing named procedure: Procedure_AllTypesUsingAlias");
+        ProcedureAllTypesUsingAliasResponse _result = procedureService.executeProcedure_AllTypesUsingAlias();
+        LOGGER.debug("got the result for named procedure: Procedure_AllTypesUsingAlias, result:{}", _result);
+        return _result;
+    }
+
     @RequestMapping(value = "/procedure/execute/Procedure_INOUT", method = RequestMethod.GET)
     @WMAccessVisibility(value = AccessSpecifier.APP_ONLY)
     @ApiOperation(value = "INOUT")

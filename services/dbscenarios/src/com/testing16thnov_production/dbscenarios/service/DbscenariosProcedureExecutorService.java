@@ -11,6 +11,8 @@ import com.testing16thnov_production.dbscenarios.models.procedure.*;
 
 public interface DbscenariosProcedureExecutorService {
 
+    ProcedureAllTypesUsingAliasResponse executeProcedure_AllTypesUsingAlias();
+
     ProcedureInoutResponse executeProcedure_INOUT(String charcol);
 
 }

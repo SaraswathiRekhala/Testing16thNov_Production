@@ -31,6 +31,15 @@ public class DbscenariosProcedureExecutorServiceImpl implements DbscenariosProce
 
     @Transactional(value = "dbscenariosTransactionManager")
     @Override
+    public ProcedureAllTypesUsingAliasResponse executeProcedure_AllTypesUsingAlias() {
+        Map params = new HashMap(0);
+
+
+        return procedureExecutor.executeNamedProcedure("Procedure_AllTypesUsingAlias", params, ProcedureAllTypesUsingAliasResponse.class);
+    }
+
+    @Transactional(value = "dbscenariosTransactionManager")
+    @Override
     public ProcedureInoutResponse executeProcedure_INOUT(String charcol) {
         Map params = new HashMap(1);
 

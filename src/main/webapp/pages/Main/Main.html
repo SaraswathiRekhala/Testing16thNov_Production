@@ -280,7 +280,27 @@
                         </wm-buttongroup>
                     </wm-form>
                 </wm-tabpane>
-                <wm-tabpane name="tabpane5"></wm-tabpane>
+                <wm-tabpane name="tabpane5" title="Procedure_AllTypesUsingAlias">
+                    <wm-table title="" dataset="bind:Variables.DbscenariosExecuteProcedure_AllTypesUsingAlias.dataSet.content" navigation="Basic" name="table4">
+                        <wm-table-column binding="charCol" caption="Char Col" pcdisplay="true" mobiledisplay="true" type="string"></wm-table-column>
+                        <wm-table-column binding="booleanCol" caption="Boolean Col" pcdisplay="true" mobiledisplay="true" type="boolean"></wm-table-column>
+                        <wm-table-column binding="pkcolumn" caption="Pkcolumn" pcdisplay="true" mobiledisplay="true" type="integer"></wm-table-column>
+                        <wm-table-column binding="longCol" caption="Long Col" pcdisplay="true" mobiledisplay="true" type="long"></wm-table-column>
+                        <wm-table-column binding="textCol" caption="Text Col" pcdisplay="true" mobiledisplay="true" type="string"></wm-table-column>
+                        <wm-table-column binding="bigdecCol" caption="Bigdec Col" pcdisplay="true" mobiledisplay="true" type="double"></wm-table-column>
+                        <wm-table-column binding="timestampCol" caption="Timestamp Col" pcdisplay="true" mobiledisplay="true" type="timestamp"></wm-table-column>
+                        <wm-table-column binding="shortCol" caption="Short Col" pcdisplay="true" mobiledisplay="true" type="integer"></wm-table-column>
+                        <wm-table-column binding="bigintCol" caption="Bigint Col" pcdisplay="true" mobiledisplay="true" type="long"></wm-table-column>
+                        <wm-table-column binding="dateCol" caption="Date Col" pcdisplay="true" mobiledisplay="true" type="date"></wm-table-column>
+                        <wm-table-column binding="datetimeCol" caption="Datetime Col" pcdisplay="true" mobiledisplay="true" type="datetime"></wm-table-column>
+                        <wm-table-column binding="blobCol" caption="Blob Col" pcdisplay="true" mobiledisplay="true" type="byte"></wm-table-column>
+                        <wm-table-column binding="stringCol" caption="String Col" pcdisplay="true" mobiledisplay="true" type="string"></wm-table-column>
+                        <wm-table-column binding="byte_col" caption="Byte Col" pcdisplay="true" mobiledisplay="true" type="integer"></wm-table-column>
+                        <wm-table-column binding="clobCol" caption="Clob Col" pcdisplay="true" mobiledisplay="true" type="string"></wm-table-column>
+                        <wm-table-column binding="doubleCol" caption="Double Col" pcdisplay="true" mobiledisplay="true" type="double"></wm-table-column>
+                        <wm-table-column binding="timeCol" caption="Time Col" pcdisplay="true" mobiledisplay="true" type="time"></wm-table-column>
+                    </wm-table>
+                </wm-tabpane>
             </wm-tabs>
         </wm-page-content>
         <wm-right-panel columnwidth="2" name="rightpanel" content="rightnav"></wm-right-panel>

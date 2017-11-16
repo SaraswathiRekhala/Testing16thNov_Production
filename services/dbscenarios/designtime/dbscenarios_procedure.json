@@ -1,4 +1,185 @@
 {
+  "Procedure_AllTypesUsingAlias" : {
+    "name" : "Procedure_AllTypesUsingAlias",
+    "description" : "Procedure_AllTypesUsingAlias",
+    "version" : "V2",
+    "procedureString" : "CALL getAllTypesUsingAlias()",
+    "parameters" : [ ],
+    "request" : {
+      "wrapped" : false,
+      "typeRef" : null,
+      "method" : "GET"
+    },
+    "response" : {
+      "typeRef" : "com.testing16thnov_production.dbscenarios.models.procedure.ProcedureAllTypesUsingAliasResponse",
+      "returns" : "CUSTOM",
+      "responseType" : "SINGLE",
+      "properties" : [ {
+        "name" : "content",
+        "fieldName" : "content",
+        "optional" : false,
+        "fieldType" : {
+          "type" : "CUSTOM",
+          "typeRef" : "com.testing16thnov_production.dbscenarios.models.procedure.ProcedureAllTypesUsingAliasResponseContent",
+          "list" : true,
+          "properties" : [ {
+            "name" : "PKCOLUMN",
+            "fieldName" : "pkcolumn",
+            "optional" : false,
+            "fieldType" : {
+              "type" : "PRIMITIVE",
+              "typeRef" : "java.lang.Integer",
+              "list" : false
+            }
+          }, {
+            "name" : "BYTE@COL",
+            "fieldName" : "byte_col",
+            "optional" : false,
+            "fieldType" : {
+              "type" : "PRIMITIVE",
+              "typeRef" : "java.lang.Short",
+              "list" : false
+            }
+          }, {
+            "name" : "SHORT COL",
+            "fieldName" : "shortCol",
+            "optional" : false,
+            "fieldType" : {
+              "type" : "PRIMITIVE",
+              "typeRef" : "java.lang.Short",
+              "list" : false
+            }
+          }, {
+            "name" : "LONG COL",
+            "fieldName" : "longCol",
+            "optional" : false,
+            "fieldType" : {
+              "type" : "PRIMITIVE",
+              "typeRef" : "java.lang.Long",
+              "list" : false
+            }
+          }, {
+            "name" : "DOUBLE COL",
+            "fieldName" : "doubleCol",
+            "optional" : false,
+            "fieldType" : {
+              "type" : "PRIMITIVE",
+              "typeRef" : "java.math.BigDecimal",
+              "list" : false
+            }
+          }, {
+            "name" : "BIGINT COL",
+            "fieldName" : "bigintCol",
+            "optional" : false,
+            "fieldType" : {
+              "type" : "PRIMITIVE",
+              "typeRef" : "java.lang.Long",
+              "list" : false
+            }
+          }, {
+            "name" : "BIGDEC COL",
+            "fieldName" : "bigdecCol",
+            "optional" : false,
+            "fieldType" : {
+              "type" : "PRIMITIVE",
+              "typeRef" : "java.math.BigDecimal",
+              "list" : false
+            }
+          }, {
+            "name" : "CHAR COL",
+            "fieldName" : "charCol",
+            "optional" : false,
+            "fieldType" : {
+              "type" : "PRIMITIVE",
+              "typeRef" : "java.lang.String",
+              "list" : false
+            }
+          }, {
+            "name" : "STRING COL",
+            "fieldName" : "stringCol",
+            "optional" : false,
+            "fieldType" : {
+              "type" : "PRIMITIVE",
+              "typeRef" : "java.lang.String",
+              "list" : false
+            }
+          }, {
+            "name" : "TEXT COL",
+            "fieldName" : "textCol",
+            "optional" : false,
+            "fieldType" : {
+              "type" : "PRIMITIVE",
+              "typeRef" : "java.lang.String",
+              "list" : false
+            }
+          }, {
+            "name" : "CLOB COL",
+            "fieldName" : "clobCol",
+            "optional" : false,
+            "fieldType" : {
+              "type" : "PRIMITIVE",
+              "typeRef" : "java.lang.String",
+              "list" : false
+            }
+          }, {
+            "name" : "DATE COL",
+            "fieldName" : "dateCol",
+            "optional" : false,
+            "fieldType" : {
+              "type" : "PRIMITIVE",
+              "typeRef" : "java.sql.Date",
+              "list" : false
+            }
+          }, {
+            "name" : "TIME COL",
+            "fieldName" : "timeCol",
+            "optional" : false,
+            "fieldType" : {
+              "type" : "PRIMITIVE",
+              "typeRef" : "java.sql.Time",
+              "list" : false
+            }
+          }, {
+            "name" : "DATETIME COL",
+            "fieldName" : "datetimeCol",
+            "optional" : false,
+            "fieldType" : {
+              "type" : "PRIMITIVE",
+              "typeRef" : "org.joda.time.LocalDateTime",
+              "list" : false
+            }
+          }, {
+            "name" : "TIMESTAMP COL",
+            "fieldName" : "timestampCol",
+            "optional" : false,
+            "fieldType" : {
+              "type" : "PRIMITIVE",
+              "typeRef" : "java.sql.Timestamp",
+              "list" : false
+            }
+          }, {
+            "name" : "BOOLEAN COL",
+            "fieldName" : "booleanCol",
+            "optional" : false,
+            "fieldType" : {
+              "type" : "PRIMITIVE",
+              "typeRef" : "java.lang.Boolean",
+              "list" : false
+            }
+          }, {
+            "name" : "BLOB COL",
+            "fieldName" : "blobCol",
+            "optional" : false,
+            "fieldType" : {
+              "type" : "PRIMITIVE",
+              "typeRef" : "byte[]",
+              "list" : false
+            }
+          } ]
+        }
+      } ]
+    }
+  },
   "Procedure_INOUT" : {
     "name" : "Procedure_INOUT",
     "description" : "INOUT",
