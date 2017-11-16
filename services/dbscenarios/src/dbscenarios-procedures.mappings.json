@@ -1,0 +1,15 @@
+{
+  "Procedure_INOUT" : {
+    "procedureString" : "CALL my_procedure(?)",
+    "parameters" : [ {
+      "name" : "charcol",
+      "type" : "string",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "variableName" : "",
+      "testValue" : "S",
+      "required" : true,
+      "parameterType" : "IN_OUT"
+    } ]
+  }
+}

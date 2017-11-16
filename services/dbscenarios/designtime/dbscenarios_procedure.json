@@ -1,0 +1,38 @@
+{
+  "Procedure_INOUT" : {
+    "name" : "Procedure_INOUT",
+    "description" : "INOUT",
+    "version" : "V2",
+    "procedureString" : "CALL my_procedure(:charcol)",
+    "parameters" : [ {
+      "name" : "charcol",
+      "type" : "string",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "variableName" : "",
+      "testValue" : "S",
+      "required" : true,
+      "parameterType" : "IN_OUT"
+    } ],
+    "request" : {
+      "wrapped" : false,
+      "typeRef" : null,
+      "method" : "GET"
+    },
+    "response" : {
+      "typeRef" : "com.testing16thnov_production.dbscenarios.models.procedure.ProcedureInoutResponse",
+      "returns" : "CUSTOM",
+      "responseType" : "SINGLE",
+      "properties" : [ {
+        "name" : "charcol",
+        "fieldName" : "charcol",
+        "optional" : false,
+        "fieldType" : {
+          "type" : "PRIMITIVE",
+          "typeRef" : "java.lang.String",
+          "list" : false
+        }
+      } ]
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "Procedure_OnlyIN" : {
+    "procedureString" : "EXEC dbo.defaultProc @id= ?",
+    "parameters" : [ {
+      "name" : "id",
+      "type" : "integer",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "variableName" : "",
+      "testValue" : "1",
+      "required" : true,
+      "parameterType" : "IN"
+    } ]
+  },
+  "Procedure_InsertQuery" : {
+    "procedureString" : "EXEC dbo.INSERTWITHBLOB @ASSIGNEDID= ?,@BYTECOL= ?,@SHORTCOL= ?,@INTCOL= ?,@FLOATCOL= ?,@LONGCOL= ?,@DOUBLECOL= ?,@BIGINTCOL= ?,@BIGDECCOL= ?,@CHARCOL= ?,@STRINGCOL= ?,@TEXTCOL= ?,@CLOBCOL= ?,@DATECOL= ?,@DATETIMECOL= ?,@TIMECOL= ?,@TIMESTAMPCOL= ?,@BOOLEANCOL= ?,@BLOBCOL= ?",
+    "parameters" : [ {
+      "name" : "ASSIGNEDID",
+      "type" : "integer",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "variableName" : "",
+      "testValue" : "899",
+      "required" : true,
+      "parameterType" : "IN"
+    }, {
+      "name" : "BYTECOL",
+      "type" : "integer",
+      "list" : false,
+      "variableType" : "SERVER",
+      "variableName" : "USER_ID",
+      "testValue" : "89",
+      "required" : true,
+      "parameterType" : "IN"
+    }, {
+      "name" : "SHORTCOL",
+      "type" : "short",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "variableName" : "",
+      "testValue" : "89",
+      "required" : true,
+      "parameterType" : "IN"
+    }, {
+      "name" : "INTCOL",
+      "type" : "integer",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "variableName" : "",
+      "testValue" : "890",
+      "required" : true,
+      "parameterType" : "IN"
+    }, {
+      "name" : "FLOATCOL",
+      "type" : "float",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "variableName" : "",
+      "testValue" : "898.8980",
+      "required" : true,
+      "parameterType" : "IN"
+    }, {
+      "name" : "LONGCOL",
+      "type" : "long",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "variableName" : "",
+      "testValue" : "890",
+      "required" : true,
+      "parameterType" : "IN"
+    }, {
+      "name" : "DOUBLECOL",
+      "type" : "double",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "variableName" : "",
+      "testValue" : "8980.80",
+      "required" : true,
+      "parameterType" : "IN"
+    }, {
+      "name" : "BIGINTCOL",
+      "type" : "big_integer",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "variableName" : "",
+      "testValue" : "8970",
+      "required" : true,
+      "parameterType" : "IN"
+    }, {
+      "name" : "BIGDECCOL",
+      "type" : "big_decimal",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "variableName" : "",
+      "testValue" : "980.898",
+      "required" : true,
+      "parameterType" : "IN"
+    }, {
+      "name" : "CHARCOL",
+      "type" : "string",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "variableName" : "",
+      "testValue" : "g",
+      "required" : true,
+      "parameterType" : "IN"
+    }, {
+      "name" : "STRINGCOL",
+      "type" : "string",
+      "list" : false,
+      "variableType" : "SERVER",
+      "variableName" : "USER_NAME",
+      "testValue" : "ghgjh",
+      "required" : true,
+      "parameterType" : "IN"
+    }, {
+      "name" : "TEXTCOL",
+      "type" : "string",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "variableName" : "",
+      "testValue" : "jhjhg",
+      "required" : true,
+      "parameterType" : "IN"
+    }, {
+      "name" : "CLOBCOL",
+      "type" : "string",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "variableName" : "",
+      "testValue" : "jghjghg",
+      "required" : true,
+      "parameterType" : "IN"
+    }, {
+      "name" : "DATECOL",
+      "type" : "date",
+      "list" : false,
+      "variableType" : "SERVER",
+      "variableName" : "DATE",
+      "testValue" : "2017-11-16",
+      "required" : true,
+      "parameterType" : "IN"
+    }, {
+      "name" : "DATETIMECOL",
+      "type" : "datetime",
+      "list" : false,
+      "variableType" : "SERVER",
+      "variableName" : "DATE_TIME",
+      "testValue" : "2017-11-16T11:08:43",
+      "required" : true,
+      "parameterType" : "IN"
+    }, {
+      "name" : "TIMECOL",
+      "type" : "time",
+      "list" : false,
+      "variableType" : "SERVER",
+      "variableName" : "TIME",
+      "testValue" : "12:05:45",
+      "required" : true,
+      "parameterType" : "IN"
+    }, {
+      "name" : "TIMESTAMPCOL",
+      "type" : "datetime",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "variableName" : "",
+      "testValue" : "2017-11-16T11:08:50",
+      "required" : true,
+      "parameterType" : "IN"
+    }, {
+      "name" : "BOOLEANCOL",
+      "type" : "boolean",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "variableName" : "",
+      "testValue" : true,
+      "required" : true,
+      "parameterType" : "IN"
+    }, {
+      "name" : "BLOBCOL",
+      "type" : "blob",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "variableName" : "",
+      "testValue" : { },
+      "required" : true,
+      "parameterType" : "IN"
+    } ]
+  }
+}
